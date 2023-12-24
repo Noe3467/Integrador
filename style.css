@@ -56,4 +56,17 @@ nav a{
   p {
     margin: 0; /* Elimina el margen predeterminado del párrafo */
   }
+
+  #contacto {
+    display: flex; /* pongo display flex acá tambien para manejar el formulario*/
+    justify-content: center; /* El espacio es justificado entre los elementos del contenedor xD */
+    align-items: flex-start;
+  }
+  
+  .formulario,
+  .video {
+    flex: 1; /* Hace que ambos elementos ocupen el mismo espacio */
+    max-width: 45%; /* Se establece un ancho máximo para cada elemento */
+  }
+  
   
