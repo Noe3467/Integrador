@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding-right: 20%;
+    color: aqua;
+}
+header{
+    padding: 3%;
+    text-align: center;
+   
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    color: #913636;
+    padding: 1% 2%;
+    text-decoration: none;
+}
+
+#productos {
+    display: flex;
+    justify-content: space-around; /* Ajusta el espacio entre las galletas */
+  }
+  
+  .galleta {
+    text-align: center;
+    max-width: 300px; /* Ajusta el ancho máximo de cada galleta */
+  }
+  
+  img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-height: 200px; /* Ajusta la altura máxima de cada imagen */
+    object-fit: cover; /* Mantiene la proporción original de la imagen */
+    border-radius: 8px; /* Añade esquinas redondeadas */
+    margin-bottom: 10px; /* Añade un margen inferior para separar la imagen del texto */
+  }
+  
+  figcaption {
+    font-weight: bold; /* Establece la negrita para el precio */
+    margin-bottom: 5px; /* Añade un pequeño margen inferior para separar el precio del texto */
+  }
+  
+  p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+  }
+  
