@@ -14,7 +14,7 @@ h1{
 header{
     padding: 3%;
     text-align: center;
-   
+    background-color: aliceblue;
 }
 
 nav{
@@ -59,8 +59,14 @@ nav a{
 
   #contacto {
     display: flex; /* pongo display flex acá tambien para manejar el formulario*/
-    justify-content: center; /* El espacio es justificado entre los elementos del contenedor xD */
+    justify-content: space-evenly; /* El espacio es justificado entre los elementos del contenedor xD */
     align-items: flex-start;
+    padding: 20px;
+  }
+
+  #button{
+    background-color:greenyellow;
+    font-weight: bold;
   }
   
   .formulario,
