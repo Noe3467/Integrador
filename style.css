@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box; /* esta propiedad evita que se me 'desborde' el contenido */
 }
 
 body{
@@ -25,9 +25,9 @@ nav{
 }
 
 nav a{
-    color: #913636;
+    color: #913636; /* dejo el mismo color del boceto */
     padding: 1% 2%;
-    text-decoration: none;
+    text-decoration: none; /* le saco las lineas de subrayado a los links a */
 }
 
 #productos {
@@ -67,6 +67,13 @@ nav a{
   .video {
     flex: 1; /* Hace que ambos elementos ocupen el mismo espacio */
     max-width: 45%; /* Se establece un ancho máximo para cada elemento */
+  }
+
+  footer{
+    text-align: center;
+    font-weight: bold; /* peso de la letra en negrita */
+    padding: 5%;
+    background-color: aliceblue;
   }
   
   
